@@ -1,5 +1,9 @@
 # link-checkr
 
+[![CI](https://github.com/JAKE1266/link-checkr/actions/workflows/ci.yml/badge.svg)](https://github.com/JAKE1266/link-checkr/actions/workflows/ci.yml)
+
+> 源码：<https://github.com/JAKE1266/link-checkr> · 安装：`npm i github:JAKE1266/link-checkr`（或直接克隆运行）
+
 零依赖**死链检查器**:从起始 URL 出发广度爬取同域内链,报告死链(4xx/5xx)、重定向链、超时,支持 CLI 文本报告与 JSON 导出。纯 Node.js(≥18)。
 
 ## 快速开始
