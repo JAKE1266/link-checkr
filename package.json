@@ -1,0 +1,10 @@
+{
+  "name": "link-checkr",
+  "version": "0.1.0",
+  "description": "零依赖死链检查器:限深限速广度爬取(同域内链)、重定向链追踪、死链/超时分组报告,CLI 可用",
+  "type": "module",
+  "bin": { "link-checkr": "./cli.js" },
+  "scripts": { "test": "node test/links.test.mjs && node test/crawler.test.mjs && node test/cli.test.mjs && node test/syntax.test.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
